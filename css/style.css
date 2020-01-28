@@ -35,7 +35,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 28px;
+    padding: 35px 0 28px 0;
 }
 
 .header__logo a {
