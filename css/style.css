@@ -19,6 +19,11 @@ a {
     text-decoration: none;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
@@ -158,3 +163,114 @@ li {
     display: block;
     margin: 0;
 }
+
+/* PORTFOLIO  start */
+
+.portfolio {
+    padding: 40px 0;
+}
+
+.portfolio__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio__item {
+    max-width: 284px;
+}
+
+.portfolio__title {
+    font-size: 24px;
+    line-height: 26px;
+    color: #e8663c;
+    padding-left: 70px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.portfolio__title-1::before {
+    content: '';
+    width: 46px;
+    height: 46px;
+    background-image: url(../images/icons/gear.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.portfolio__title-2::before {
+    content: '';
+    width: 49px;
+    height: 40px;
+    background-image: url(../images/icons/check.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.portfolio__title-3::before {
+    content: '';
+    width: 42px;
+    height: 40px;
+    background-image: url(../images/icons/user.svg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.portfolio__text {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #414141;
+    margin-bottom: 20px;
+}
+.portfolio__btn {
+    background-color: #e8663c;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* PORTFOLIO  end */ 
+
+
+/* WORKS start */ 
+.works {
+}
+.container {
+}
+.works__title {
+    background-image: url(../images/pattern-bg.jpg);
+    background-repeat: repeat;
+    margin-bottom: 24px;
+}
+.works__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px
+}
+.works__item {
+    max-width: 220px;
+}
+
+.works__item-img {
+    display: block;
+}
+
+.works__item-text {
+    padding: 12px 0 14px 10px;
+    border: 1px solid #dbdbdb;
+    border-top: none;
+}
+.works__item-title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #b9b9b9;
+}
+.works__item-date {
+    color: #e8663c;
+    font-size: 14px;
+}
+/* WORKS end */ 
