@@ -237,10 +237,6 @@ li {
 
 
 /* WORKS start */ 
-.works {
-}
-.container {
-}
 .works__title {
     background-image: url(../images/pattern-bg.jpg);
     background-repeat: repeat;
@@ -273,4 +269,90 @@ li {
     color: #e8663c;
     font-size: 14px;
 }
+
 /* WORKS end */ 
+
+
+/* FOOTER start */ 
+
+.footer {
+    font-size: 12px;
+    line-height: 1.4;
+    color: #fff;
+    background-image: url(../images/left.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 100% 62px;
+}
+
+
+.footer__inner {
+    padding: 36px 34px 30px;
+    background-color: #e8663c;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer__inner::before {
+    content: '';
+    width: 10px;
+    height: 62px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.footer__inner::after {
+    content: '';
+    width: 10px;
+    height: 62px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -10px;
+}
+
+.footer__box {
+    max-width: 266px;
+}
+
+.footer__box-twitter {
+    max-width: 220px;
+}
+
+.footer__title {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.footer__p + .footer__p {
+    margin-top: 15px;
+}
+
+.footer__box-twitter a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f3b29d;
+    font-size: 12px;
+}
+
+.footer__box-twitter span {
+    display: block;
+    color: #f3b29d;
+    margin-top: 10px;
+}
+
+.footer__box-about .footer__p {
+    margin-bottom: 18px;
+}
+
+.footer__box-about .footer__p a {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: block;
+    color: #fff;
+}
+
+/* FOOTER end */ 
